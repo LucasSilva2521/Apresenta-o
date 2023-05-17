@@ -1,86 +1,72 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
-@font-face{
-
-font-family: 'maiden';
-src: url(Maiden_Orange/MaidenOrange-Regular.ttf);
-
+@font-face {
+  font-family: "maiden";
+  src: url(Maiden_Orange/MaidenOrange-Regular.ttf);
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    background-color:rgb(63, 111, 139);
-    font-family:'Inter', sans-serif;
+body {
+  background-color: rgb(63, 111, 139);
+  font-family: "Inter", sans-serif;
 }
 
-main{
-    
-    background-image: url(/images/pexels-alex-conchillos-3648850.jpg);
-    background-position: center;
-    height: 100vh;
-    text-align: center;
-    display: flex ;
-    flex-direction: column;
-    justify-content: center;
-
+main {
+  background-image: url(/images/pexels-alex-conchillos-3648850.jpg);
+  background-position: center;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-.Person-container{
-
-    color: #FFFFFF;
-
+.Person-container {
+  color: #ffffff;
 }
 .Person-container_img {
-
-width: 180px;
-border-radius: 50%;
-border: 8px solid blanchedalmond;
-margin-bottom: 24px;
-
+  width: 180px;
+  border-radius: 50%;
+  border: 8px solid blanchedalmond;
+  margin-bottom: 24px;
 }
-.Person-container_img{
-    font-size: 400px;
-    margin-bottom: 8px;
-    font-family: 'maiden';
+.Person-container_img {
+  font-size: 400px;
+  margin-bottom: 8px;
+  font-family: "maiden";
 }
-.Person-container_subtitle{
-    font-size: 16px;
-    margin-bottom: 40px;
-
+.Person-container_subtitle {
+  font-size: 16px;
+  margin-bottom: 40px;
 }
-.info-container{
-    display: flex;
-    gap: 16px;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-bottom: 40px;
+.info-container {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
 }
-.info-box{
-    width: 360px;
-    height: 220px;
-    background-color:rgb(54, 54, 134) ;
-    padding: 24px;
-    border-radius: 32px;
-    
+.info-box {
+  width: 360px;
+  height: 220px;
+  background-color: rgb(54, 54, 134);
+  padding: 24px;
+  border-radius: 32px;
 }
-.info-box__title{
-    font-family: 'maiden';
-    font-size: 24px;
-    margin-bottom: 16px;
-
+.info-box__title {
+  font-family: "maiden";
+  font-size: 24px;
+  margin-bottom: 16px;
 }
-.links{
-    color:white;
-    font-size: 24px;
-    padding: 15px;
-    background-color: rgb(61, 118, 202);
-    font-family: 'Times New Roman', Times, serif;
-    border-radius: 20px;
-
+.links {
+  color: white;
+  font-size: 24px;
+  padding: 15px;
+  background-color: rgb(61, 118, 202);
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 20px;
 }
-
-
